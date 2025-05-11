@@ -1,0 +1,77 @@
+body{
+    background-image: url(./Back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.container{
+    margin-top: 1%;
+    width: 100%;
+}
+.items1{
+    width: 10%;
+    float: left;
+}
+.container h3{
+text-align: center;
+color: bisque;
+}
+.items2{
+    width: 10%;
+    float: right;
+}
+img{
+    width: 100%;
+}
+
+.container img{
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.title1{
+    letter-spacing: 10px;
+    text-align: center;
+    color:gold;
+}
+
+.clr{
+    clear: both;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: flex-end;
+    background-size: cover;
+    height: 70vh;
+    background-image: linear-gradient(to top,black,rgba(0, 0, 0, 0.541),transparent);
+}
+
+.Othergames{
+    width: 20%;
+
+}
+
+.container2 img{
+    box-sizing: border-box;
+    border-radius: 500px;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.container2 h3{
+text-align: center;
+color: bisque;
+}
+
+.title2{
+    text-align: center;
+    color: azure;
+}
+
