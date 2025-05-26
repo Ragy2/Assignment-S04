@@ -1,21 +1,27 @@
-body{
+.main{
     background-image: url(./Back3.jpg);
-    background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
+}
+.layer1{
     overflow: auto;
+    height: 100vh;
+    background-image: linear-gradient(to top,black,rgba(0, 0, 0, 0.541),transparent);
 }
 
-.container{
-    margin-top: 1%;
-    width: 100%;
-}
-.items1{
-    width: 10%;
-    float: left;
+.container img{
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px;
 }
 .container h3{
 text-align: center;
 color: bisque;
+}
+
+.items1{
+    width: 10%;
+    float: left;
 }
 .items2{
     width: 10%;
@@ -23,12 +29,6 @@ color: bisque;
 }
 img{
     width: 100%;
-}
-
-.container img{
-    box-sizing: border-box;
-    border-radius: 100px;
-    padding: 15px;
 }
 
 .title1{
@@ -42,27 +42,26 @@ img{
 }
 
 .container2{
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-items: baseline;
-    align-items: flex-end;
-    background-size: cover;
-    height: 70vh;
-    background-image: linear-gradient(to top,black,rgba(0, 0, 0, 0.541),transparent);
+    justify-content: space-evenly;
+
+}
+
+.title2{
+    margin-top: 150px;
+    text-align: center;
+    color: azure;
 }
 
 .Othergames{
-    width: 20%;
-
+    width: 15%;
 }
 
 .container2 img{
     box-sizing: border-box;
     border-radius: 500px;
-    padding: 50px;
-    padding-top: 0px;
 }
 
 .container2 h3{
@@ -70,8 +69,5 @@ text-align: center;
 color: bisque;
 }
 
-.title2{
-    text-align: center;
-    color: azure;
-}
+
 
